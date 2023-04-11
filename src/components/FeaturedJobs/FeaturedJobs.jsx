@@ -23,7 +23,7 @@ const FeaturedJobs = ({ featured_job }) => {
                 <img src={salary_icon} alt="" />
                 <p>{salary}</p>
             </div>
-            <button className='btn'><Link to={`/${id}`}>View Details</Link></button>
+            <Link to={`/${id}`}><button className='btn'>View Details</button></Link>
         </div>
     );
 };
