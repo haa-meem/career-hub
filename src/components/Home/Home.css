@@ -8,6 +8,10 @@
     padding: 100px;
 }
 
+.slogan>button {
+    color: white;
+}
+
 .man {
     width: 40%;
     height: 40%;
@@ -37,4 +41,15 @@ span {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
     border-radius: 8px;
     padding: 20px;
+}
+
+.featured_jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.button {
+    margin: 0 auto;
+    color: white;
 }

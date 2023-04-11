@@ -1,0 +1,28 @@
+.featured_data {
+    padding: 30px;
+    border: 1px solid rgba(117, 117, 117, 0.6);
+    border-radius: 10px;
+}
+
+.job_type,
+.location,
+.salary {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.job_type>p {
+    width: fit-content;
+    height: fit-content;
+    padding: 9px 19px;
+    border: 1px solid rgba(117, 117, 117, 0.6);
+    border-radius: 7px;
+    color: rgba(126, 144, 254, 1);
+}
+h3,.location>p,.salary>p{
+    color: rgba(117, 117, 117, 1);
+}
+.btn>a{
+    color: white;
+}

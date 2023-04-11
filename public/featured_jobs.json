@@ -1,56 +1,62 @@
 [
     {
-        "company_logo": "../src/assets/All Images/google-1-1 1.png",
-        "job_title": "Technical Database Engineer",
-        "company_name": "Google LLC",
-        "work_mode": "Onsite",
-        "job_type": "Full-time",
-        "job_location": "San Francisco, CA",
-        "salary": "$120,000 - $150,000"
+      "id": 1,
+      "company_logo": "../src/assets/All Images/google-1-1 1.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "work_mode": "Onsite",
+      "job_type": "Full-time",
+      "job_location": "San Francisco, CA",
+      "salary": "$120,000 - $150,000"
     },
     {
-        "company_logo": "../src/assets/All Images/netflix-4 1.png",
-        "job_title": "Senior Product Designer",
-        "company_name": "Netflix",
-        "work_mode": "Onsite",
-        "job_type": "Part-time",
-        "job_location": "New York, NY",
-        "salary": "$80,000 - $100,000"
+      "id": 2,
+      "company_logo": "../src/assets/All Images/netflix-4 1.png",
+      "job_title": "Senior Product Designer",
+      "company_name": "Netflix",
+      "work_mode": "Onsite",
+      "job_type": "Part-time",
+      "job_location": "New York, NY",
+      "salary": "$80,000 - $100,000"
     },
     {
-        "company_logo": "../src/assets/All Images/tesla-9 1.png",
-        "job_title": "Software Engineer",
-        "company_name": "Tesla",
-        "work_mode": "Onsite",
-        "job_type": "Contract",
-        "job_location": "Los Angeles, CA",
-        "salary": "$50 - $70 per hour"
+      "id": 3,
+      "company_logo": "../src/assets/All Images/tesla-9 1.png",
+      "job_title": "Software Engineer",
+      "company_name": "Tesla",
+      "work_mode": "Onsite",
+      "job_type": "Contract",
+      "job_location": "Los Angeles, CA",
+      "salary": "$50 - $70 per hour"
     },
     {
-        "company_logo": "../src/assets/All Images/google-1-1 1.png",
-        "job_title": "Technical Database Engineer",
-        "company_name": "Google LLC",
-        "work_mode": "Onsite",
-        "job_type": "Full-time",
-        "job_location": "Chicago, IL",
-        "salary": "$90,000 - $110,000"
+      "id": 4,
+      "company_logo": "../src/assets/All Images/google-1-1 1.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "work_mode": "Onsite",
+      "job_type": "Full-time",
+      "job_location": "Chicago, IL",
+      "salary": "$90,000 - $110,000"
     },
     {
-        "company_logo": "../src/assets/All Images/Group 10021.png",
-        "job_title": "Product Manager",
-        "company_name": "LMN Products",
-        "work_mode": "Remote",
-        "job_type": "Full-time",
-        "job_location": "Seattle, WA",
-        "salary": "$130,000 - $150,000"
+      "id": 5,
+      "company_logo": "../src/assets/All Images/Group 10021.png",
+      "job_title": "Product Manager",
+      "company_name": "LMN Products",
+      "work_mode": "Remote",
+      "job_type": "Full-time",
+      "job_location": "Seattle, WA",
+      "salary": "$130,000 - $150,000"
     },
     {
-        "company_logo": "../src/assets/All Images/netflix-4 1.png",
-        "job_title": "Customer Service Representative",
-        "company_name": "Netflix",
-        "work_mode": "Remote",
-        "job_type": "Part-time",
-        "job_location": "Miami, FL",
-        "salary": "$20 - $25 per hour"
+      "id": 6,
+      "company_logo": "../src/assets/All Images/netflix-4 1.png",
+      "job_title": "Customer Service Representative",
+      "company_name": "Netflix",
+      "work_mode": "Remote",
+      "job_type": "Part-time",
+      "job_location": "Miami, FL",
+      "salary": "$20 - $25 per hour"
     }
 ]

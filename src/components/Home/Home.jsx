@@ -4,10 +4,9 @@ import icon1 from '../../assets/Icons/accounts 1.png';
 import icon2 from '../../assets/Icons/business 1.png';
 import icon3 from '../../assets/Icons/social-media 1.png';
 import icon4 from '../../assets/Icons/chip 1.png';
-import location from '../../assets/Icons/Location Icon.png';
-import salary from '../../assets/Icons/Frame.png';
 import './Home.css';
 import { useLoaderData } from 'react-router-dom';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
     const featured_jobs = useLoaderData();
@@ -55,17 +54,15 @@ const Home = () => {
                     <h1>Featured Jobs</h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div>
-                    <img src={featured_jobs[0].company_logo} alt="" />
-                    <h2>{featured_jobs[0].job_title}</h2>
-                    <h3>{featured_jobs[0].company_name}</h3>
-                    <p>{featured_jobs[0].work_mode}</p>
-                    <p>{featured_jobs[0].job_type}</p>
-                    <img src={location} alt="" />
-                    <p>{featured_jobs[0].job_location}</p>
-                    <img src={salary} alt="" />
-                    <p>{featured_jobs[0].salary}</p>
+                <div className='featured_jobs'>
+                    {
+                        featured_jobs.map(featured_job =><FeaturedJobs 
+                        key={featured_job.id}
+                        featured_job={featured_job}
+                        ></FeaturedJobs>)
+                    }
                 </div>
+                <button className='button'>See All Jobs</button>
             </section>
         </div>
     );
