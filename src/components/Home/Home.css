@@ -1,8 +1,40 @@
-.banner{
-    display: inline;
+.banner {
+    display: flex;
 
 }
+
+.slogan {
+    width: 60%;
+    padding: 100px;
+}
+
 .man {
-    width: 816px;
-    height: 744px;
+    width: 40%;
+    height: 40%;
+}
+
+span {
+    color: rgba(126, 144, 254, 1);
+}
+
+.jobs-section {
+    text-align: center;
+}
+
+.catagories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.catagories div>img {
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+}
+
+.catagories div {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+    padding: 20px;
 }

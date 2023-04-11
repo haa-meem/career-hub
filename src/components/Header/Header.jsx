@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../assets/All Images/job-hut.jpg'
+import logo from '../../assets/All Images/job-hut.jpg';
 const Header = () => {
     return (
         <div className='header'>
