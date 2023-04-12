@@ -49,7 +49,27 @@ span {
     gap: 10px;
 }
 
-.button {
-    margin: 0 auto;
+.featured_sec>.button {
+    width: fit-content;
+    margin: 10px 662px;
     color: white;
+}
+@media screen and (max-width:667px){
+    .banner{
+        display: inline;
+    }
+    .catagories,.featured_jobs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .slogan,.man{
+        width: 100%;
+        padding: 10px;
+    }
+    .featured_sec>.button {
+        width: fit-content;
+        margin: 10px 146px;
+        color: white;
+    }
 }

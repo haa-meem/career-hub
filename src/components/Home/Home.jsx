@@ -48,7 +48,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='featured_sec'>
                 <div className='jobs-section'>
                     <h1>Featured Jobs</h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>

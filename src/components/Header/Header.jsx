@@ -11,8 +11,8 @@ const Header = () => {
                 <Link to='/applied-jobs'>Applied Jobs</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/blog'>Blog</Link>
-                <button>Start Applying</button>
             </nav>
+            <button>Start Applying</button>
         </div>
     );
 };
