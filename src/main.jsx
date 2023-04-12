@@ -35,7 +35,12 @@ const router = createBrowserRouter([
       },
       {
         path:'applied-jobs',
-        element:<AppliedJobs></AppliedJobs>
+        element:<AppliedJobs></AppliedJobs>,
+        loader:async()=>{
+          const res=await fetch('/featured_jobs.json');
+          const data =await res.json();
+          return data;
+        }
       },
       {
         path:'statistics',

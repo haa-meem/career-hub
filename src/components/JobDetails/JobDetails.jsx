@@ -1,14 +1,18 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import location from '../../assets/Icons/Location Icon.png';
 import title from '../../assets/Icons/Frame-1.png';
 import salary_icon from '../../assets/Icons/Frame.png';
 import phone from '../../assets/Icons/Frame-2.png'
 import email_icon from '../../assets/Icons/Frame-3.png'
 import './JobDetails.css';
+import { addToDb } from '../../utils/fakeDB';
 const JobDetails = () => {
     const jobDetails = useLoaderData();
-    const { job_title, job_location, salary, job_description, job_responsibility, educational_requirements, experiences, phone_no, email } = jobDetails;
+    const { id,job_title, job_location, salary, job_description, job_responsibility, educational_requirements, experiences, phone_no, email } = jobDetails;
+    const applyJob =()=>{
+        addToDb(id);
+    }
     return (
         <div>
             <h2 className='jobDetailsTitle'>Job Details</h2>
@@ -45,7 +49,7 @@ const JobDetails = () => {
                         <h4>Address:</h4>
                         <p>{job_location}</p>
                     </div>
-                    <button className='apply_btn'>Apply Now</button>
+                    <Link to={"/applied-jobs"}><button className='apply_btn' onClick={()=>applyJob(id)}>Apply Now</button></Link>
                 </div>
             </section>
         </div>
