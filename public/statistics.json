@@ -1,0 +1,37 @@
+[
+    {
+      "assignment_no": 1,
+      "number": 47,
+      "assignment_name": "HTML,CSS & GitHub As a Beginner"
+    },
+    {
+      "assignment_no": 2,
+      "number": 44,
+      "assignment_name": "Responsive Web Layout"
+    },
+    {
+      "assignment_no": 3,
+      "number": 55,
+      "assignment_name": "CSS Frameworks"
+    },
+    {
+      "assignment_no": 4,
+      "number": 60,
+      "assignment_name": "Hello JavaScript"
+    },
+    {
+      "assignment_no": 5,
+      "number": 35,
+      "assignment_name": "Integrate Javascript"
+    },
+    {
+      "assignment_no": 6,
+      "number": 38,
+      "assignment_name": "Intermediate JavaScript & API"
+    },
+    {
+      "assignment_no": 7,
+      "number": 50,
+      "assignment_name": "Explore Browser & Debug"
+    }
+  ]  

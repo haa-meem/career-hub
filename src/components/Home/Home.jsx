@@ -10,7 +10,6 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
     const featured_jobs = useLoaderData();
-    console.log(featured_jobs);
     return (
         <div>
             <section className='banner'>
