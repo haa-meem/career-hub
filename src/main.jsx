@@ -46,12 +46,12 @@ const router = createBrowserRouter([
         path:'blog',
         element:<Blog></Blog>
       },
-      // {
-      //   path:'*',
-      //   element:<div>404 Not Found</div>
-      // }
     ]
   },
+  {
+    path:'*',
+    element:<div>404 Not Found</div>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
